@@ -1,9 +1,6 @@
 *.obj
 *.pdb
 *.ilk
-*.exe
 *.out
-*.bmp
 
-bin/
 build/

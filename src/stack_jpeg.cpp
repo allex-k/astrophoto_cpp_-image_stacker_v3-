@@ -70,6 +70,7 @@ int main()
     uint8_t* resultArrayInt = new uint8_t[width*height*numChannels];
 
     int numImages = pathsToImages.size();
+    // std::cout << "numImages " << numImages << '\n';
 
     //sum
     for(int picNum = 0; picNum < numImages; ++picNum)
@@ -83,7 +84,7 @@ int main()
 
         stbi_image_free(imageData);
 
-        std::cout << '\r' << picNum + 1 << '/' << numImages << std::endl;
+        std::cout << '\r' << picNum + 1 << '/' << numImages;
     }
 
     //result
@@ -99,7 +100,7 @@ int main()
     // ==== timer ====
     auto endTime = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
-    std::cout << "Execution time: " << duration << " milliseconds" << std::endl;
+    std::cout << "\nExecution time: " << duration << " milliseconds" << std::endl;
 
     return 0;
 }
