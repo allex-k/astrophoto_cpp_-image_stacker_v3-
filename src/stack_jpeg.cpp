@@ -92,7 +92,7 @@ int main()
         resultArrayInt[i] = static_cast<int>(resultArray[i]);
     }
 
-    std::string resultPath = path + "\\RESULT.bmp";
+    std::string resultPath = path + "/RESULT.bmp";
     int err = stbi_write_bmp(resultPath.c_str(), width, height, numChannels, resultArrayInt);
     
     // ==== timer ====
