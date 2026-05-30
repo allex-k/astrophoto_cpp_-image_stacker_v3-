@@ -1,0 +1,1 @@
+ffmpeg -i looped-anim-bright.mkv -c:v libx264 -crf 28 -preset medium -pix_fmt yuv420p looped-anim-bright.mp4

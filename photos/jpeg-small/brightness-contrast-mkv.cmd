@@ -1,0 +1,1 @@
+ffmpeg -i looped-anim.mkv -vf "eq=brightness=0.6:saturation=1.8:gamma=0.5:contrast=1.6" -c:v ffv1 -level 3 -g 1 -pix_fmt yuv422p -r 25 looped-anim-bright.mkv
