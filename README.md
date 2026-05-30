@@ -3,11 +3,14 @@ from full size dng:
 from small jpg:
 ![Photo](./photos/results/result-from-jpeg-small.jpg)
 
-animation:
+<!-- animation:
 [animation](./photos/results/looped-anim-bright.mp4)
 <video src="./photos/results/looped-anim-bright.mp4" controls></video>
 
 animation webm:
-[animation](./photos/results/looped-anim-bright.webm)
+[animation](./photos/results/looped-anim-bright.webm) -->
+
+animation:
+![animation gif](./photos/results/looped-anim-bright.gif)
 
 [TODO.txt - план работы](TODO.txt)
