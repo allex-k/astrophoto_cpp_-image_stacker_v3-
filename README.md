@@ -1,4 +1,4 @@
 from full size dng:
-![Photo](./photos/full-size/result3-small.jpg)
+![Photo](./photos/results/result3-small.jpg)
 from small jpg:
-![Photo](./photos/jpeg-small/result-from-jpeg-small.jpg)
+![Photo](./photos/results/result-from-jpeg-small.jpg)
